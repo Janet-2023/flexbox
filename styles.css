@@ -1,0 +1,22 @@
+
+
+.container{
+background-color: gold;
+border: 0px solid;
+display: flex;
+width: 1600px;
+height: 45px;
+flex-direction:initial;
+justify-content: flex-start;
+padding-top: 20px;
+align-items: center;
+
+}
+
+.texto{
+    background: white;
+    border: 0px solid ;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 30px;
+}
