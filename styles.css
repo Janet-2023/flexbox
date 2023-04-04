@@ -1,22 +1,28 @@
+header {
+    height: 65px;
+    background:gold;
+    position: fixed;
+  }
 
+  nav{
+    margin-top: 10px;
+    float: left;
+    background-color: white;
+  }
+.menu ul{
+    margin: 0px;
+    background-color: black;
+    list-style: none;
 
-.container{
-background-color: gold;
-border: 0px solid;
-display: flex;
-width: 1600px;
-height: 45px;
-flex-direction:initial;
-justify-content: flex-start;
-padding-top: 20px;
-align-items: center;
+  }
+  nav ul li{
+    display: inline;
 
-}
-
-.texto{
-    background: white;
-    border: 0px solid ;
-    flex-wrap: wrap;
-    width: 900px;
-    height: 30px;
-}
+  }
+  nav ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px ;
+    
+  }
